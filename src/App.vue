@@ -1,0 +1,37 @@
+<template>
+  <div id="app">
+    <Pano></Pano>
+  </div>
+</template>
+
+<script>
+import Pano from './components/Pano'
+
+export default {
+  name: 'App',
+  data() {
+    return {
+    }
+  },
+  components: {
+    Pano
+  },
+  mounted() {
+  },
+  methods: {
+    
+  }
+}
+</script>
+
+<style>
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
